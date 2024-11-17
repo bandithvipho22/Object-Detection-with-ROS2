@@ -37,15 +37,15 @@ cd object_detection/src/
 ```
 git clone <repo>
 ```
-
++ Go to "object_detection" workspace:
 ```
 cd .. /object_dection/
 ```
-
++ Then, colcon build:
 ```
 colcon build
 ```
-
++ Run command below to run object detection node with Webcam:
 ```
 ros2 run mr2_realsense yolov8_webcam
 ```
@@ -57,7 +57,8 @@ ros2 run mr2_realsense yolov8_webcam
   + Publish Distance of ball
   + Couting ball
   + Publish min angle and min distance (Robot's be alble to know the nearest ball)
-
++ Run command below to run object detection node with Realsense Camera:
+  
 ```
 ros2 run mr2_realsense yolov8_rs07
 ```
