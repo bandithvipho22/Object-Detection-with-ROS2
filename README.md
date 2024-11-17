@@ -24,13 +24,19 @@ After, setup the yolo model on the hardware we get the result from the both fram
 
 ## Command
 To run the code for object detection, there are 2 codes:
-+ Object Detection with Webcam
+### Object Detection with Webcam
 ```
 python3 yolov8_webcam.py
 ```
 ![image](https://github.com/user-attachments/assets/6cdd9f89-618d-4182-9b6f-fdcfb163f9ee)
 
-+ Object Detection with Realsense D435i
+### Object Detection with Realsense D435i
++ There are several function:
+  + Detect color of ball
+  + Publish Distance of ball
+  + Couting ball
+  + Publish min angle and min distance (Robot's be alble to know the nearest ball)
+
 ```
 python3 yolov8_rs07.py
 ```
