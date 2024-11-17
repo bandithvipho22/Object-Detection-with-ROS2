@@ -28,9 +28,11 @@ To run the code for object detection, there are 2 codes:
 ```
 python3 yolov8_webcam.py
 ```
+![image](https://github.com/user-attachments/assets/6cdd9f89-618d-4182-9b6f-fdcfb163f9ee)
+
 + Object Detection with Realsense D435i
 ```
 python3 yolov8_rs07.py
 ```
+![image](https://github.com/user-attachments/assets/e364f401-5168-4c68-bf47-5686191615ff)
 
-![image](https://github.com/user-attachments/assets/6cdd9f89-618d-4182-9b6f-fdcfb163f9ee)
