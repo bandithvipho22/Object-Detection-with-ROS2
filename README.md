@@ -42,3 +42,4 @@ python3 yolov8_rs07.py
 ```
 ![image](https://github.com/user-attachments/assets/e364f401-5168-4c68-bf47-5686191615ff)
 
+Note that: If you want more detail on this project you could go to folder "Documents" and read my Slide or Report
