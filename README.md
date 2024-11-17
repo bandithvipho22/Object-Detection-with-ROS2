@@ -26,6 +26,26 @@ After, setup the yolo model on the hardware we get the result from the both fram
 ## Command
 To run the code for object detection, there are 2 codes:
 ### 1). Object Detection with Webcam
++ Create workspace and clone this repo:
+```
+mkdir -p object_dection/src/
+```
+
+```
+cd object_detection/src/
+```
+```
+git clone <repo>
+```
+
+```
+cd .. /object_dection/
+```
+
+```
+colcon build
+```
+
 ```
 python3 yolov8_webcam.py
 ```
