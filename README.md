@@ -5,6 +5,7 @@ The primary objective of this project is to participate in the ABU Robocon Compe
 
 # Requirement:
 In this project, we implemented on the Jetson AGX Xavier using the RealSense D435i.
++ Setup ROS2 (Humble or Foxy)
 + Jetson Flashing (Ubuntu 20.04):
   + Jetpack 5.1.2 buit-in Libraries,
   + CUDA: 11.4.315,
