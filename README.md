@@ -47,7 +47,7 @@ colcon build
 ```
 
 ```
-python3 yolov8_webcam.py
+ros2 run mr2_realsense yolov8_webcam
 ```
 ![image](https://github.com/user-attachments/assets/6cdd9f89-618d-4182-9b6f-fdcfb163f9ee)
 
@@ -59,7 +59,7 @@ python3 yolov8_webcam.py
   + Publish min angle and min distance (Robot's be alble to know the nearest ball)
 
 ```
-python3 yolov8_rs07.py
+ros2 run mr2_realsense yolov8_rs07
 ```
 ![image](https://github.com/user-attachments/assets/e364f401-5168-4c68-bf47-5686191615ff)
 
